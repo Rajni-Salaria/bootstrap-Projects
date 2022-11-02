@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.dropdown {
+    display: grid;
+    grid-template-columns: repeat(3, 153px);
+    column-gap: 0;
+}
+li.nav-item.dropdown {
+    display: block;
+}
+
+nav.navbar.navbar-expand-sm.fs-5.navbar-light.bg-primary {
+    position: fixed;
+    width: 100%;
+}
+
+.Banner {
+    height: 570px;
+    background-color: #3c7edf;
+}
+.container.s {
+    padding: 95px 95px 95px 95px;
+}
+
+
+
+h6.text-center.text-white {
+    margin: 0 auto;
+    width: 286px;
+}
+h6.text-white {
+    margin: 17px 0 0 205px;
+}
+
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    h6.text-center.text-white {
+        margin: 0 auto;
+        width: 186px;
+    }
+    h6.text-white {
+        margin: 10px 0 0 65px;
+    }
+    .col-sm-12 .text-center img{
+        width: 155px;
+    }
+}
