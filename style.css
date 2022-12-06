@@ -4,50 +4,14 @@ body{
     padding: 0;
 }
 /* <!-- Header Section Start --> */
-
-
-div#navbarResponsive {
-    margin-left: 168px;
+a.dropdown-item.text-white:hover {
+    background-color: black;
 }
-a.nav-link.text-dark:hover{
-    background-color: rgb(218, 70, 70);
-    color: white;
-}
-@media screen and (min-width: 360px) and (max-width: 767px) {
-    header{
-        position: relative;
-    }
-    div#navbarResponsive {
-        position: absolute;
-        z-index: 5;
-        top: 67px;
-        width: 100%;
-        background: gainsboro;
-        right: 0;
-    }
-}    
-/* header section End */
-/* <!-- Banner Section start  --> */
-@media screen and (min-width: 360px) and (max-width: 767px) {
-    .w-100{
-        width: 350px;
-        height: 350px;
-    }
-}  
 .col-sm-6 {
     font-size: 22px;
-    margin: 0 50px 170px 0;
-    padding: 10px;
-    text-align: left;
+    margin: 0 50px 170px 0; 
 }  
-@media screen and (min-width: 360px) and (max-width: 767px) {
-    .col-sm-6 {
-        font-size: 14px;
-        margin: 0px;
-        padding: 0px;
-        text-align: left;
-    } 
-}
+
 .btnD1{
     display: inline-block;
     text-decoration: none;
@@ -60,7 +24,7 @@ a.nav-link.text-dark:hover{
 
 /* <!-- New Arrivals Mid-Section Start --> */
 .image{
-    position: relative;
+    /* position: relative; */
     background: url(images/arrival-bg.png);
     background-size: cover; 
     background-repeat: no-repeat;
@@ -68,6 +32,7 @@ a.nav-link.text-dark:hover{
     height: 600px;
     background-position: top; 
 }
+
 /* <!-- New Arrivals Mid-Section End --> */
 
 /* <!-- Images Container Section Start --> */
